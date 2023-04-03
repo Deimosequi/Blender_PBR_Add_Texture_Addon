@@ -1,3 +1,4 @@
+#my info and the addon location
 bl_info = {
     "name": "CgBookCase Addon",
     "author": "Dhanushka",
@@ -24,7 +25,7 @@ preview_collection = previews.new()
 preview = preview_collection.load("custom_image", p_image_path, "IMAGE")
 preview2 = preview_collection.load("custom_image2", p_image_path2, "IMAGE")
 
-
+#added enumeration to change the pictures in the UI by giving the buttons ID's 
 class MyTextures(PropertyGroup):
     
         my_enum : EnumProperty(
@@ -37,7 +38,7 @@ class MyTextures(PropertyGroup):
     )
 
 
-
+#the main pannel of the UI
 class AddonMainPanel(Panel):
     bl_label = "CgBookCase Addon"
     bl_idname = "SHADER_PT_MAINPANEL"
@@ -80,7 +81,7 @@ class AddonMainPanel(Panel):
         row.operator('shader.texture_pbr_operator')
         
         
-        
+#the custom oparator to add the texture and node mapping     
 class SHADER_OT_TEXTURE(Operator):
     bl_label = "Load Texture"
     bl_idname = 'shader.texture_pbr_operator'
@@ -268,7 +269,7 @@ class SHADER_OT_TEXTURE(Operator):
         
         
         
-        
+#register and unregister the methods    
 def register():
     bpy.utils.register_class(MyTextures)
     bpy.utils.register_class(AddonMainPanel)
