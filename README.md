@@ -9,7 +9,10 @@
 2. After, make sure to create a new folder or go to the path where you want to download the files from github.
 3. Right click inside the folder and select Git Bash Here.
 4. When Git Bash is opened type this or copy the code from github:
-      git clone https://github.com/Deimosequi/Blender_PBR_Add_Texture_Addon.git
+      
+      git clone 
+      
+      https://github.com/Deimosequi/Blender_PBR_Add_Texture_Addon.git
  
 5. After cloning it, you will have 3 files the textures file, .py file, readme
 6. Copy the textures file to the C: drive
