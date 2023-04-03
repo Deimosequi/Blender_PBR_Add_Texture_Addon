@@ -1,4 +1,4 @@
-// hi thsi is Dhanushka AKA Deimosequi
+// Hi this is Dhanushka AKA Deimosequi
 
 // Here are the steps that you need to follow for the addon to work 
 
