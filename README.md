@@ -1,4 +1,5 @@
 // hi thsi is Dhanushka AKA Deimosequi
+
 // Here are the steps that you need to follow for the addon to work 
 
 // MAKE SURE TO HAVE BLENDER 3.0.0 or above the cuurent version i am in is 3.4.1
